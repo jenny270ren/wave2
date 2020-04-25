@@ -3,7 +3,7 @@ n= int(random.randint(0,38))
 print ("The spin resulted in",n,"...")
 if(n==0):
     print("Pay 0")
-if(n==38):
+elif(n==38):
     print("Pay 00")
 else:
     print ("Pay",n)
